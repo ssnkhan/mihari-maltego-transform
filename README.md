@@ -1,6 +1,6 @@
 # Mihari Maltego Transform
 
-The following Maltego Transform can be used to query a local [Mihari](https://github.com/ninoseki/mihari) sqlite3 database, and returns the detection name (i.e., as stored within the `alerts.title` column) associated with an IPv4 address. The transform runs entirely locally and does not require internet connectivity, and can be trivially updated to return other entity data by changing the SQL query within `IPToC2.py`. 
+The following Maltego Transform can be used to query a local [Mihari](https://github.com/ninoseki/mihari) sqlite3 database to return the detection name (i.e., as stored within the `alerts.title` column) associated with an IPv4 address. The transform runs entirely locally and does not require internet connectivity, and can be trivially updated to return other entity data by changing the SQL query within `IPToC2.py`. 
 
 
 ![](./Mihari_Maltego_Transform.png "Demo investigation showing the output of the local Mihari Maltego Transform")

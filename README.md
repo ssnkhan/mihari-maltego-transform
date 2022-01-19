@@ -8,7 +8,7 @@ The following Maltego Transform can be used to query a local [Mihari](https://gi
 
 ## Installation
 1. `git clone` this directory
-2. `pip install maltego-trx`
+2. `pip install maltego-trx` (may require `sudo` dependant on `site-packages` permissions)
 3. Edit `IPToC2.py` with the absolute path to your `mihari.db`
 
 

@@ -31,7 +31,7 @@ The following Maltego Transform can be used to query a local [Mihari](https://gi
 3. The _Transform Output_ pane will show the status of the query, and a new _Phrase_ entity type will be added to the investigation, together with an _Observed Date_ annotation, if a match is found.
 
 
-__Note__: Maltego _does not_ add seperate _Phrase_ entities with the same detection name but multiple `created_at` values. The SQL query has been written such that it will always return the most recent observation date of a detection rule, in the event that multiple observations of the _same_ `alerts.title` exist.
+__Note__: Maltego _does not_ add seperate _Phrase_ entities with the same detection name but multiple `created_at` values (i.e., multiple detections of the same rule, on the same host). The SQL query has been written such that it will always return the most recent observation date of a detection rule, in the event that multiple observations of the _same_ `alerts.title` exist.
 
 ---
 
